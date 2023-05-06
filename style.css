@@ -24,7 +24,27 @@ body {
   margin: 0 auto;
 }
 header {
+  font-family: "Poppins", sans-serif;
   height: 100vh;
   width: 100%;
   background: var(--color-primary-Violet);
+}
+.col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.mix-margin {
+  margin-top: 2rem;
+}
+.img-l {
+  width: 20rem;
+  padding: 4rem 0;
+}
+.img-i {
+  width: 100%;
+}
+.heading-primary {
+  font-size: var(--fs-primary);
+  font-weight: 600;
 }
