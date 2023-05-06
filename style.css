@@ -34,7 +34,8 @@ header {
   background-image: url(images/bg-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
+  position: relative;
 }
 .col-2 {
   display: grid;
@@ -83,7 +84,17 @@ header {
   list-style: none;
   display: flex;
   gap: 1.6rem;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
 }
 .icon-s {
-  width: 3.6rem;
+  fill: #fff;
+  width: 3.2rem;
+  height: 3.2rem;
+  transition: all 0.3s ease-in-out;
+}
+.icon-s:is(:hover, :active) {
+  fill: var(--color-btn-Soft-Magenta);
 }
