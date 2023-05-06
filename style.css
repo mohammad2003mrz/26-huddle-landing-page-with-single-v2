@@ -79,3 +79,11 @@ header {
   color: var(--color-white-h);
   background: var(--color-btn-Soft-Magenta);
 }
+.social-list {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+.icon-s {
+  width: 3.6rem;
+}
